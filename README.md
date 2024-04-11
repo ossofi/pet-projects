@@ -4,6 +4,12 @@ Your task is to develop three different sections according to the provided Figma
 
 Figma design link: https://www.figma.com/file/AJqg3a4WEZ2MHKzZZcl5FY/Free-Figma-Website-Landing-Pages---Startup-App-(Community)-(Copy)?type=design&node-id=0-5403&mode=design&t=jCCkOPmlQ0UGPXWx-0
 
+## Evaluation criteria - maximum 10 points
+
+- Navigation 3 points
+- Features 4 points
+- Contents 3 point
+
 ## Navigation
 
 1. Open the provided Figma design project
