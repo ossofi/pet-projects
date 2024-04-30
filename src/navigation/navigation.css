@@ -1,1 +1,48 @@
-/* your solution here */
+.container1{
+    width:1170px;
+   margin: 0 auto;
+    height: 100px;
+}
+body{
+    margin: 0 auto;
+    font-family: 'DM Sans';
+}
+h2{ 
+    font-weight:700;
+    float: left;
+    margin-top: 33px;
+    padding-left: 3.5px;
+    letter-spacing: -0.29px;
+}
+.nav3{
+    color: #1E0E62;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    align-items: baseline;
+}
+#srch{
+    word-spacing: 8px;
+}
+#blg{
+    padding-right: 4px;
+}
+.menu{
+    display: flex;
+    font-size: 16px;
+    flex-direction: row;
+    padding-inline-start: 4px;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 29px;
+}
+.sm {
+    display: flex;
+    justify-content:end ;
+    flex-direction: row;
+    list-style: none;
+    font-size: 18px;
+    color: rgba(21, 20, 57, 0.4);
+}
+#twttr, #fcbk{
+    margin-right: 36px;
+}
