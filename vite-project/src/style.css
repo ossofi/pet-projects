@@ -1,0 +1,336 @@
+body{
+    background-color: #FAFBFD;
+}
+header{
+    height: 700px;
+    background-image: url(../assets/Rectangle15.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-color: #FAFBFD;
+  }
+
+.contentcontainer{
+    width: 1152px;
+    margin: 0 auto;
+}
+.container{
+    background: linear-gradient(to right, #FAFBFD 50%, #EC5863 50%);
+}
+body{
+    margin: 0 auto;
+}
+.nav{
+    height: 118px;
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    align-items:center;
+}
+#logo{
+    margin-left: 52px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    letter-spacing: 1.33px;
+    font-family: Raleway;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: bold;
+    column-gap: 39px;
+    margin-left: 50px;
+    padding-bottom: 2px;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.33px;
+    font-family: Raleway;
+    font-weight: bold;
+}
+#navbut{
+    justify-self: flex-end;
+    margin-right: 42.5px;
+    padding: 14px 29px 14px 31px;
+    background-color: #4285F4;
+    color: white;
+    margin-bottom: 4px;
+}
+.infopg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Rubik;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+#maintext1{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 126%;
+    margin-top: 123px;
+}
+#health{
+    color: #4285F4;
+}
+#descr1{
+    margin-top: 10px;
+    color: #616161;
+    font-size: 12px;
+    line-height: 138.5%;
+    max-width: 75%;
+    letter-spacing: 0.96px;
+}
+
+#infobut{
+    padding: 14.5px 33.5px 13.5px 30px;
+    background-color: #EC5863;
+    color: white;
+    margin-top: 25px;
+}
+.img1{
+    margin-top: 35px;
+    justify-self: end;
+    margin-right: 52px;
+}
+.video{
+    margin-top: 148px;
+}
+#vidimg{
+    float: left;
+}
+#vidtext1{
+    margin-top: 6px;
+    margin-left: 55px;
+    color: #B0B0B0;
+    font-size: 13px;
+    line-height: 126%;
+    letter-spacing: 1.13px;
+}
+#vidtext2{
+    font-size: 9px;
+    letter-spacing: 1.6px;
+    line-height: 126%;
+    margin-left: 55px;
+    margin-top: 5.5px;
+}
+.contentcontainer2{
+    background-color: #ffffff;
+    height: 700px;
+}
+.staysafepg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 80px;
+    font-family: Rubik;
+    width: 1152px;
+    margin: 0 auto;
+}
+#mobileimg{
+    margin-left: 100px;
+}
+.text2{
+    margin-top: 151.5px;
+    margin-left: 11.5px;
+    width: 63%;
+}
+#maintext2{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 126%;
+}
+#corona{
+    color: #EC5863;
+}
+#descr2{
+    margin-top: 10px;
+    line-height: 138.5%;
+    letter-spacing: 0.93px;
+    font-size: 12px;
+    color: #616161;
+}
+#featbut{
+    padding: 14.5px 40.5px 13.5px 42.5px;
+    background-color: #EC5863;
+    color: white;
+    margin-top: 27px;
+}
+.contentcontainer3{
+    height: 598px;
+    width: 1152px;
+    font-family: Rubik;
+    margin: 0 auto;
+    background-image: url('../assets/Group28.svg');
+    background-repeat: no-repeat;
+    background-position: top 52px left 218px;
+    padding-top: 102px;
+}
+.stats{
+    display: flex;
+    width: 494px;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 30px 79px 28px 81px;
+    background-color: white; 
+    box-shadow: 0px 0px 24px 2px rgba(88, 126, 236, 0.15);
+    border-radius: 16px;
+    margin-left: 250px;
+}
+#styleh1{
+    color: #EC5863;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    line-height: 43px;
+    font-size: 36px;
+    letter-spacing: 4.2px;
+}
+#stylep{
+    letter-spacing: 4.08px;
+    font-size: 11px;
+    padding-top: 3.5px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.info3{
+    display: grid;
+    grid-template-columns: 0.94fr 1.06fr;
+}
+.text3{
+    margin-top: 132px;
+    margin-left: 92px;
+    display: flex;
+    flex-direction: column;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+}
+#maintext3, #exp{
+    font-size: 44px;
+    font-weight: bold;
+    height: 56px;
+}
+#exp{ 
+    color: #4285F4;
+    padding-left: 10px;
+}
+#descr3{
+    width: 81%;
+    font-size: 12px;
+    color: #616161;
+    line-height: 138.5%;
+    letter-spacing: 0.95px;
+    margin-top: 8px;
+}
+#featbut2{
+    padding: 14.5px 40.5px 13.5px 42.5px;
+    background-color: #EC5863;
+    color: white;
+    margin-top: 26px;
+}
+#vidpreview{
+    margin-top: 65px;
+}
+.contentcontainer4{
+    height: 700px;
+    background-color: white;
+    font-family: Rubik;
+    background-image: url('../assets/Group55.svg');
+    background-position: top 200px center;
+    background-repeat: no-repeat;
+}
+.healthcarepage{
+    width: 1152px;
+    margin: 0 auto;
+    
+}
+.title4{
+    font-size: 44px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 81px;
+    gap: 9px;
+}
+#healthcare{
+    color:#EC5863;
+}
+#descr4{
+    text-align: center;
+    width: 53%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #616161;
+    line-height: 138.5%;
+    letter-spacing: 0.95px;
+    margin-top: 16px;
+}
+.cards{
+    width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    gap: 72px;
+    margin-top: 64px;
+}
+.card2{
+    border-radius: 8px;
+    width: 227px;
+    height: 203px;
+    background-color: white; 
+    box-shadow: 0px 0px 24px 2px rgba(88, 126, 236, 0.15);
+    text-align: center;
+    padding: 36.88px 25.45px 36.88px 25.45px; 
+}
+.card2:first-of-type{
+    padding: 36.65px 17.82px 36.65px 17.82px; 
+    width: 243px;
+    height: 203px;
+}
+.card2:last-of-type{
+    padding: 40.21px 25.45px 40.21px 25.45px; 
+    height: 196px;
+}
+#h4style{
+    line-height: 138.5%;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 53px;
+}
+#descrinfo{
+    font-size: 12px;
+    color: #616161;
+    line-height: 138.5%;
+    letter-spacing: 1px;
+    padding-top: 7px;
+}
+.footer{
+    display: grid;
+    padding-top: 70px;
+    grid-template-columns: 0.96fr 1.04fr;
+    width: 1152px;
+    margin: 0 auto;
+}
+#google{
+    height: 55px;
+    width: 164px;
+    padding-top: 6px;
+    justify-self: right;
+}
+#apple{
+    height: 66px;
+    width: 165px;
+    margin-left: 54px;
+}
